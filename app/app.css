@@ -5,6 +5,8 @@
 html,
 body {
   @apply bg-white dark:bg-gray-950;
+  @apply min-h-screen;
+  @apply bg-[#f2f3f5];
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
